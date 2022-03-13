@@ -1,0 +1,104 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    background-color: darkcyan;
+    max-width: 100%;
+}
+.head{
+    display: flex;
+    background: linear-gradient(to top, darkcyan, #c52d4c);
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    width: 15%;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+   
+}
+.task{
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    justify-content: space-between;
+}
+.mission{
+    font-weight: bold;
+}
+
+
+/* ________Icons_______ */
+.fa-solid{
+    font-size: 20px;
+}
+.fa-heart{
+    color: red;
+}
+.fa-heart:hover{
+    font-size: 23px;
+    transition: 0.4s;
+}
+.fa-trash{
+    padding-right: 20px;
+    color: darkgray;
+}
+.fa-star{
+    color: darkgray;
+}
+.fa-face-angry{
+    color: #ffff009c;
+    font-weight: bold;
+}
+/* __________Form__________ */
+.Q{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;   
+}
+form{
+    text-align: center;
+    padding-top: 25px;
+}
+input{
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.btn{
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* _____________End of CSS _____________ */
+
+
+.add-line{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+
+footer{
+    background: linear-gradient(to top, darkcyan, #3c3c3c);
+    text-align: center;
+    position: relative;
+    bottom: -250px;
+    width: 98.95%;
+    padding: 5px;
+    margin: 0 auto;
+    color: white;
+}
